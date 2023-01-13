@@ -1,0 +1,297 @@
+/*PC-TAB*/
+@media (max-width: 1024px) {
+  [class*="__container"]{
+    max-width: 990px;
+  }
+/* -----------------------------------------Section Organaisation--------------------------- */
+.organaisation {
+  padding: 0;
+  margin-bottom: 80px;
+}
+.organaisation__container {
+  padding: 200px 15px 85px 15px;
+}
+.organaisation__title-text {
+  max-width: 470px;
+  margin-right: 40px;
+}
+.text__title {
+margin-top: -10px;
+}
+.organaisation__title h1 {
+  font-size: 40px;
+  margin-top: 0px;
+}
+.organaisation__text {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.block__text {
+  margin-bottom: 42px;
+}
+.button {
+  font-size: 18px;
+  padding: 17px 60px;
+}
+.organaisation__video img {
+  margin-top: 0px;
+  width: 450px;
+  height: 300px;
+}
+.video__play {
+  /* top: 120px;
+  left: 193px; */
+  cursor: url(../img/cursor-pointer.svg), default;
+}
+.play__size {
+  width: 62px;
+  height: 62px;
+}
+/* ---------------------------------/Section Organisation------------------ */
+/* ---------------------------------Section Provide------------------------ */
+.provide {
+  padding: 0;
+  margin-bottom: 55px;
+}
+.provide__content {
+  margin-bottom: 55px;
+}
+.provide__title-text {
+  max-width: 450px;
+  margin-right: 49px;
+}
+.provide__text {
+  max-width: 460px;
+  margin-bottom: 45px;
+}
+
+.provide__column {
+  max-width: 500px;
+  margin-top: 0px;
+}
+.item-provide1 {
+  width: 230px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+.item-provide2 {
+  width: 230px;
+  padding-left: 0px;
+}
+.item-provide3 {
+  width: 230px;
+  margin-right: 30px;
+  padding-left: 0px;
+}
+.item-provide4 {
+  width: 230px;
+  padding-left: 0px;
+}
+.item-provide__icon {
+  margin-bottom: 20px;
+}
+.item-provide__text {
+  max-width: 300px;
+}
+.provide-line {
+  height: 0;
+}
+.line__provide {
+  width: 970px;
+}
+/* --------------------------------------------------/Section Provide------------------------------------- */
+/* --------------------------------------------------Section Products-------------------------------------- */
+.products__title {
+  margin-bottom: 35px;
+}
+
+.products-line {
+  height: 0;
+  margin-bottom: 55px;
+}
+.line {
+  display: inline-block;
+  width: 132px;
+  height: 3px;
+  background-color: var(--bg-color-btn);
+}
+.products__item-list {
+  margin-bottom: 35px;
+}
+.products__list li:first-child {
+  margin-right: 35px;
+}
+.products__list li:nth-child(2) {
+  margin-right: 35px;
+}
+.products__list li:nth-child(3) {
+  margin-right: 35px;
+}
+.products__list li:nth-child(4) {
+  margin-right: 35px;
+}
+.products__list li:last-child {
+  margin-right: 0px;
+}
+.img-products img {
+  display: block;
+  width: 225px;
+  height: 220px;
+}
+/* --------------------------------------------------/Section Products-------------------------------------- */
+/* --------------------------------------------------Section Team-------------------------------------- */
+.team-line {
+  height: 0;
+  margin-bottom: 65px;
+}
+.title__image {
+  width: 300px;
+  height: 400px;
+  margin-right: 35px;
+}
+.title__image img {
+  width: 310px;
+  height: 414px;
+}
+
+/* .title__desc {
+  display: flex;
+  flex-direction: column;
+} */
+
+.desc__text {
+  margin-bottom: 50px;
+}
+.desc__social {
+  margin-bottom: 50px;
+}
+.social__list {
+  display: flex;
+  gap: 30px;
+}
+.desc__img {
+  display: flex;
+  gap: 15px;
+  margin-left: 0px;
+}
+.desc__img img {
+  width: 143px;
+  height: 164px;
+}
+.link__text {
+  width: 143px;
+  height: 35px;
+}
+.link__text a {
+  font-size: 14px;
+}
+/* /Всплывающее имя на картинке */
+/* --------------------------------------------------/Section Team-------------------------------------- */
+/* --------------------------------------------------Section Design-------------------------------------- */
+.design {
+  /* max-height: 450px; */
+  margin-bottom: 60px;
+}
+.design__email {
+  padding: 23px 263px 22px 26px;
+}
+.design__button {
+  padding: 20px 57px 19px 58px;
+}
+/* --------------------------------------------------/Section Design-------------------------------------- */
+/* --------------------------------------------------Section Touch-------------------------------------- */
+.touch {
+  margin-bottom: 75px;
+}
+.touch__title {
+  margin-bottom: 40px;
+}
+.touch__text {
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+.form__touch {
+  max-width: 480px;
+}
+.touch-line {
+  height: 0;
+  margin-bottom: 65px;
+}
+.touch__form {
+  display: flex;
+  flex: 1 1 480px;
+  margin-right: 0px;
+}
+
+.input__name {
+  width: 226px;
+  height: 58px;
+  padding-left: 15px;
+  /* padding: 20px 50px 20px 20px; */
+  /* margin-bottom: 45px;
+  margin-right: 15px; */
+}
+.input__mail {
+  width: 226px;
+  height: 58px;
+  padding-left: 15px;
+  /* padding: 20px 50px 20px 20px; */
+  /* margin-bottom: 45px; */
+}
+.area__message {
+  width: 480px;
+  height: 240px;
+  padding-top: 25px;
+  padding-left: 15px;
+  /* padding: 20px 260px 170px 20px; */
+  margin-bottom: 45px;
+}
+.touch__button {
+  width: 480px;
+  /* padding: 20px 162px 20px 162px; */
+}
+.touch__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 480px;
+  margin-top: 110px;
+  margin-left: 120px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+/* --------------------------------------------------/Section Touch-------------------------------------- */
+/* --------------------------------------------------Footer-------------------------------------- */
+.footer {
+  max-height: 105px;
+}
+.footer__copy-social {
+  max-height: 105px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+}
+/* .footer__copyright {
+  margin-top: 46px;
+} */
+.footer__social {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.social {
+  height: 33px;
+  width: 33px;
+}
+/* --------------------------------------------------/Footer-------------------------------------- */
+/* ------------------------------------------Loader---------------------------------------- */
+.loader__text {
+  font-size: 28px;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -35%);
+}
+/* ------------------------------------------/Loader---------------------------------------- */
+}
+/*/PC-TAB*/

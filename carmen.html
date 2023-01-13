@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pc_media.css">
+  <link rel="stylesheet" href="css/pctab_media.css">
+  <link rel="stylesheet" href="css/tablet_media.css">
+  <link rel="stylesheet" href="css/burger.css">
+  <link rel="stylesheet" href="css/mobile_media.css">
+  <link rel="stylesheet" href="css/small_media.css">
+  
+  <meta name="author" content="Oleksandr Trybrat">
+  <meta name="description" content="Landing page for the final work on the HTML and CSS course">
+  <meta name="keywords" content="landing, landing page, шаблон одностраничного сайта"> 
+  <meta name="generator" content="Visual Studio Code 1.73.1">
+
+  <title>Agnecy landing page</title>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+  <!-- Loading -->
+  <div class="preloader">
+    <div class="loader__text">Loading, wait please...</div>
+    <div class="loader"></div>
+  </div>
+  <!-- Loading -->
+
+  <div id="header" class="wrapper">
+    <header id="open" class="header">
+      <div id="close" class="header__container">
+        <div class="header__menu menu">
+          <nav class="menu__body">  <!--меню бургер без джаваскрипта-->
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+              <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+              <li class="menu__item"><a href="#about" class="menu__link">About us</a></li>
+              <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+            </ul>
+          </nav> <!--/меню бургер без джаваскрипта-->
+        </div>
+        <!--меню бургер без джаваскрипта, кнопка бургера-->
+        <div class="header__button">
+          <a href="#open" class="icon-menu"><span></span></a>
+          <a href="#close" class="close-icon-menu"></a>
+        </div>
+        <!--/меню бургер без джаваскрипта-->
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section id="home" class="organaisation">
+        <div class="organaisation__container">
+
+          <div class="organaisation__title-text">
+            <div class="text__title">
+              <div class="organaisation__title">
+                <h1>our strong</h1>
+              </div>
+              <div class="organaisation__text">
+                <p>organaisation</p>
+              </div>
+            </div>
+            <!-- <div class="block__text-text"> -->
+              <div class="block__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. Ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+              <div class="block__text-button">
+                <a class="text-button button" href="#">Contact Us</a>
+              </div>
+            <!-- </div> -->
+          </div>
+            <div class="organaisation__video">
+              <img src="./img/header-video_01.png" alt="Video">
+              <div class="video__play">
+                <svg class="play__size" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M53.3463 35.3111L26.3463 52.6316L26.3463 17.9906L53.3463 35.3111Z"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M35 70C54.33 70 70 54.33 70 35C70 15.67 54.33 0 35 0C15.67 0 0 15.67 0 35C0 54.33 15.67 70 35 70ZM35 65C51.5685 65 65 51.5685 65 35C65 18.4315 51.5685 5 35 5C18.4315 5 5 18.4315 5 35C5 51.5685 18.4315 65 35 65Z"/>
+                </svg>
+                <!--Немного другого вид знак play -->
+                <!-- <svg class="play__size" viewBox="0 0 68 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 2.5C14.0743 5.29188 11.013 8.72316 6.72178 14.4532C1.6627 21.2055 -0.362669 27.9488 0.0526432 36.652C0.668851 49.5653 7.25203 60.1566 18.4355 66.229C23.0793 68.7502 24.7723 69.5 34 69.5C43.2277 69.5 44.2815 68.7502 48.9252 66.229C55.4205 62.7026 60.892 57.0641 64.3121 50.3715C66.7334 45.6348 68 44.1229 68 35.159C68 26.1951 66.7334 24.6832 64.3121 19.9464C60.8688 13.2101 55.379 7.57555 48.9252 4.15562C44.7335 1.93405 42.1405 0.787644 35 0.499995C27.5311 0.199407 25.2027 0.456598 20.5 2.5ZM44.4737 10.5366C54.6768 15.2087 60.1609 23.7884 60.2101 35.159C60.2575 45.8756 55.3307 54.2473 46.1272 59.0876C33.0294 65.9752 16.9723 60.8801 10.3002 47.718C6.46777 40.1585 6.45135 30.1883 10.2587 22.6895C16.7076 9.98622 31.6676 4.67219 44.4737 10.5366ZM24.9878 35.7392C24.9878 45.0913 24.5252 52.1831 24.9878 52C26.876 51.2555 52.0256 36.1165 52.0208 35.6566C52.015 35.0943 25.8619 18.5 24.9878 18.5C24.6768 18.5 24.9878 26.3882 24.9878 35.7392Z"/>
+                </svg> -->
+                <!-- /Немного другого вид знак play -->
+                <!-- <img src="/img/play_01.svg" alt="Play"> -->
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section id="portfolio" class="provide">
+        <div class="provide__container">
+          <div class="provide__content">
+            <div class="provide__title-text">
+              <div class="provide__title title">
+                <h2>do you know we can provide for you ?</h2>
+              </div>
+              <div class="provide__text text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+              </div>
+              <div class="block__text-button">
+                <a class="text-button button button-provide" href="#">Learn More</a>
+              </div>
+            </div>
+
+            <div class="provide__column">
+
+              <div class="provide__item item-provide1">
+                <div class="item-provide__icon">
+                  <img src="./img/provide/managment.png" alt="Icon">
+                </div>
+                <div class="item-provide__title">Management</div>
+                <div class="item-provide__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe. Lorem ipsum new idolor sit amet, consect netur adipis.</div>
+              </div>
+            
+              <div class="provide__item item-provide2">
+                <div class="item-provide__icon">
+                  <img src="./img/provide/pencil.png" alt="Icon">
+                </div>
+                <div class="item-provide__title">UI /UX Design</div>
+                <div class="item-provide__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe. Lorem ipsum new idolor sit amet.</div>
+              </div>
+
+              <div class="provide__item item-provide3">
+                <div class="item-provide__icon">
+                  <img src="./img/provide/diamond.png" alt="Icon">
+                </div>
+                <div class="item-provide__title">Logo / Branding</div>
+                <div class="item-provide__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe. Lorem ipsum new idolor sit amet.</div>
+              </div>
+
+              <div class="provide__item item-provide4">
+                <div class="item-provide__icon">
+                  <img src="./img/provide/animation.png" alt="Icon">
+                </div>
+                <div class="item-provide__title">Animation</div>
+                <div class="item-provide__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe. Lorem ipsum new idolor sit amet.</div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="provide-line">
+            <span class="line__provide"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="products__container">
+          <div class="products__title-text">
+            <div class="products__title title">
+            <h2>feature products</h2>
+            </div>
+            <div class="products__text text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <div class="products-line line">
+              <span class="line__products"></span>
+            </div>
+          </div>
+          <div class="products__item-list">
+            <div class="item__link">
+              <ul class="products__list">
+                <li class="products__item"><a class="products__link" href="#">all</a></li>
+                <li class="products__item"><a class="products__link" href="#">print template</a></li>
+                <li class="products__item"><a class="products__link" href="#">web template</a></li>
+                <li class="products__item"><a class="products__link" href="#">user interface</a></li>
+                <li class="products__item"><a class="products__link" href="#">mock-up</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="products__image">
+            <div class="img-products">
+              <img src="./img/products/products_01.png" alt="product-01">
+              <img src="./img/products/products_02.png" alt="product-02">
+              <img src="./img/products/products_03.png" alt="product-03">
+              <img src="./img/products/products_04.png" alt="product-04">
+              <img src="./img/products/products_05.png" alt="product-05">
+              <img src="./img/products/products_06.png" alt="product-06">
+              <img src="./img/products/products_07.png" alt="product-07">
+              <img src="./img/products/products_08.png" alt="product-08">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="about" class="team">
+        <div class="team__container">
+          <div class="team__title-text">
+            <div class="team__title title">
+              <h2>Meet our team</h2>
+            </div>
+            <div class="team__text text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux, print template.</p>
+            </div>
+            <div class="team-line">
+              <span class="line__team line"></span>
+            </div>
+          </div>
+          <div class="team__desc">
+            <div class="title__image">
+              <a href="./index.html"><img src="./img/team/big_img/team_03b.png" alt="Carmen"></a>
+            </div>
+            <div class="title__desc">
+              <div class="desc__title-text">
+                <div class="desc__title">
+                  <h3>carmen smith</h3>
+                </div>
+                <div class="desc__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux, print template.</p>
+                </div>
+                <div class="desc__social">
+                  <ul class="social__list">
+                    <li class="social__item"><a class="social__link" href="#">Facebook</a></li>
+                    <li class="social__item"><a class="social__link" href="#">Dribble</a></li>
+                    <li class="social__item"><a class="social__link" href="#">Behance</a></li>
+                    <li class="social__item"><a class="social__link" href="#">Twitter</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="desc__img">
+                <div class="text__img">
+                  <a href="./index.html"><img src="./img/team/big_img/team_01s.png" alt="Mark"></a>
+                  <div class="link__text">
+                    <a href="./index.html">mark waugh</a>
+                  </div>
+                </div>
+                <div class="text__img">
+                  <a href="./sokina.html"><img src="./img/team/team_02.png" alt="Sokina"></a>
+                  <div class="link__text">
+                    <a href="./sokina.html">sokina jue</a>
+                  </div>
+                </div>
+                <div class="text__img">
+                  <a href="./anita.html"><img src="./img/team/team_04.png" alt="Anita"></a>
+                  <div class="link__text">
+                    <a href="./anita.html">anita floyd</a>
+                  </div>
+                </div>
+                <div class="text__img">
+                  <a href="./michael.html"><img id="margin" src="./img/team/team_05.png" alt="Michael"></a>
+                  <div class="link__text">
+                    <a href="./michael.html">michael young</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="design">
+        <div class="design__container">
+          <div class="design__form-address">
+            <div class="design__title-text">
+              <div class="design__title">
+                <h3>Design tips, tricks, and freebies. Delivered weekly.</h3>
+              </div>
+              <div class="design__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+              </div>
+            </div>
+            <div class="design__form">
+              <form class="form">
+                <div class="email">
+                  <label class="form__design" for="email">
+                    <input class="design__email" type="email" id="email" placeholder="Email Address...">
+                  </label>
+                </div>
+                <!-- <label for="button">
+                  <input type="submit" class="design__button" id="button" value="Subscribe"> -->
+                <div class="btn__submit">
+                  <button type="submit" class="design__button" id="button">Subscribe</button>
+                </div>
+                <!-- </label> -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="touch">
+        <div class="touch__container">
+          <div class="touch__title-text">
+            <div class="touch__title title">
+              <h2>get in touch</h2>
+            </div>
+            <div class="touch__text text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <div class="touch-line">
+              <span class="line__touch line"></span>
+            </div>
+          </div>
+          <div class="touch__form-info">
+            <div class="touch__content">
+              <div class="touch__form">
+                <form class="form__touch">
+                  <div class="flex">
+                    <div class="name__input">
+                      <!-- <label for="name"> -->
+                      <input class="input__name" type="text" placeholder="Name" id="name">
+                      <!-- </label> -->
+                    </div>
+                    <div class="mail__input">
+                      <!-- <label for="mail"> -->
+                      <input class="input__mail" type="email" placeholder="Your Mail" id="mail">
+                      <!-- </label> -->
+                    </div>
+                  </div>
+                  <div class="area__input">
+                    <!-- <label for="message"> -->
+                    <textarea class="area__message" name="message" id="message" placeholder="Type your message"></textarea>
+                    <!-- </label> -->
+                  </div>
+                  <button class="touch__button" type="submit">Send message</button>
+                  <!-- <label for="btn">
+                    <input class="touch__button" type="submit" value="Send message" id="btn">
+                  </label> -->
+                </form>
+              </div>
+
+              <div class="touch__info">
+                <div class="info__title">
+                  <h4>contact info</h4>
+                </div>
+                <div class="info__address info">
+                  <p>Jalalabad 24 / A, Ambaarkhana, Sylhet, 
+                    Bangladesh</p>
+                </div>
+                <div class="info__email info">
+                  <p>redwan@deviserweb.com</p>
+                </div>
+                <div class="info__phone info">
+                  <p>(+88) 017 617 46373</p>
+                </div>
+              </div>
+            </div> <!---->
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer__container">
+        <div class="footer__copy-social">
+          <div class="footer__copyright">
+            <p>&#169; Copyright @Junaed 2016, All rights reserved.</p>
+          </div>
+          <div class="footer__social">
+            <a class="social__link" href="#"><svg class="social" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"/></svg></a>
+            <a class="social__link" href="#"><svg class="social" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="32px" height="32px"><path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"/></svg></a>
+            <a class="social__link" href="#"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="33px" height="33px"><path d="M 11 7 C 6.027344 7 2 11.027344 2 16 C 2 20.972656 6.027344 25 11 25 C 15.972656 25 20 20.972656 20 16 C 20 15.382813 19.933594 14.78125 19.8125 14.199219 L 19.765625 14 L 11 14 L 11 17 L 17 17 C 16.523438 19.835938 13.972656 22 11 22 C 7.6875 22 5 19.3125 5 16 C 5 12.6875 7.6875 10 11 10 C 12.5 10 13.867188 10.554688 14.921875 11.464844 L 17.070313 9.359375 C 15.46875 7.894531 13.339844 7 11 7 Z M 25 11 L 25 14 L 22 14 L 22 16 L 25 16 L 25 19 L 27 19 L 27 16 L 30 16 L 30 14 L 27 14 L 27 11 Z"/></svg></a>
+            <a class="social__link" href="#"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="33px" height="33px"> <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg></a>
+          </div>
+        </div>
+      </div>
+        <!-- Стрелки вверх и вниз -->
+        <div class="arrow">
+          <div class="top">
+            <a href="#header" class="top"><img src="./img/arrow-up.png" alt="Arrow-Up"></a>
+          </div>
+          <div class="down">
+            <a href="#footer" class="down"><img src="./img/arrow-down.png" alt="Arrow-Down"></a>
+          </div>
+        </div>
+        <!-- /Стрелки вверх и вниз -->
+    </footer>
+
+  </div>
+</body>
+</html>
+
